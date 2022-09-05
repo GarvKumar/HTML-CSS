@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        body {
+            background-image: url('/userbg.jpg');
+            background-size: cover;
+        }
+       .container {
+          text-align: left;
+          padding-left: 500px;
+         font-size: 20px;
+         display: block;
+         padding-top: 105px;
+         
+            
+       }
+       .container input {
+        width: 550px;
+        padding: 10px;
+       }
+       button {
+        padding: 10px;
+        background-color:rgb(205, 209, 218);
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 20px;
+       }
+       button:hover {
+        color:brown;
+       }
+       .nav {
+        display: flex;
+        text-decoration: none;
+        height: 100px;
+        background-color: rgb(178, 193, 188);
+        text-align: center;
+        padding-left:400px ;
+       }
+       .nav a {
+        padding:30px 60px;
+        text-decoration: none;
+        font-size: 20px;
+       }
+       .nav a:hover {
+        color: rgb(178, 110, 28);
+       }
+    </style>
+</head>
+<body >
+    <div class="nav">
+        <a href="./college.html">College</a>
+        <a href="./department.html">Department</a>
+        <a href="">Subject</a>
+        <a href="./cv.html">CV</a>
+    </div>
+    <center>
+    <div class="container">
+        <h1 style="padding-left:150px;">LOGIN PAGE</h1>
+    <form action="">
+    <label style="float: inline-end;" >Roll No</label><br>
+    <input type="number" name="rollno" placeholder="Enter your roll no" required><br><br>
+    <label>Password</label><br>
+    <input type="password" name="pass" placeholder="Enter your password" required><br><br>
+    <button type="button">Submit</button>
+    <button type="button" style="margin-left:100px ;">Cancel</button>
+    </form></div>
+    </center>
+
+</body>
+</html>
